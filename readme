@@ -1,0 +1,29 @@
+Chatbot Readme
+-----------------------------------------------------------
+
+Requirements
+-----------------------------------------------------------
+The following programs are required to run this program:
+
+-Python 2.7.8
+-NLTK
+-Numpy
+
+Extraction
+-----------------------------------------------------------
+Extract all the files in this zip into a single folder. The
+directory structure of this program is important, if a
+folder is not setup correctly the program will not run.
+
+Running the Bot
+-----------------------------------------------------------
+In order to run the chat bot for topic recognition call
+chat(). Enter a sentence or word, the program will return
+the topic and it's knowledge of that topic. If the topic
+is not found in the database then it will attempt to 
+determine the topic based on the nouns in the sentence.
+
+Closing
+-----------------------------------------------------------
+To quit the program enter qqq
+
