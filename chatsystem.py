@@ -167,17 +167,3 @@ def chat():
         print manager.topic
         print manager.topicKnowledge
 
-
-# for OOP understanding I know it's random but a template to OOP in python 
-class BankAccount:
-    def __init__(self):
-        self.balance = 0
-
-    def withdraw(self, amount):
-        self.balance -= amount
-        return self.balance
-
-    def deposit(self, amount):
-        self.balance += amount
-        return self.balance
-    
